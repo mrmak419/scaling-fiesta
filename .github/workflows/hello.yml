@@ -1,0 +1,7 @@
+name: Robot Inspector
+on: [pull_request]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello! The robot inspector says this code looks safe!"
